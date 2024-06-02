@@ -27,3 +27,7 @@
 #yellow means github website unaware of this file
 
 #to add file to github, check the stage box
+
+#commit, and add comment
+
+#then push them d
