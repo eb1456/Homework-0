@@ -16,6 +16,7 @@
 #"git config --global user.name "Your Name""
 # ie git config --global user.name "Ezra Baraban"
 
+
 #git config --global user.email "ezra.baraban@gmail.com"
 
 #now start project that syncs w Git
@@ -31,3 +32,10 @@
 #commit, and add comment
 
 #then push them 
+
+#install.packages("usethis")
+library(usethis)
+
+use_git_config(user.name = "Ezra Baraban", user.email = "ezra.baraban@gmail.com")
+
+use_git() d
