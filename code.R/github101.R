@@ -38,4 +38,14 @@ library(usethis)
 
 use_git_config(user.name = "Ezra Baraban", user.email = "ezra.baraban@gmail.com")
 
-use_git() d
+use_git() 
+
+create_github_token()
+
+#install.packages("gitcreds")
+
+library(gitcreds)
+
+gitcreds_set()
+
+use_git()
