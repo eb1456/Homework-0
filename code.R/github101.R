@@ -48,6 +48,12 @@ library(gitcreds)
 
 gitcreds_set()
 
+#windows: installing git and gitbash (comes w installing git for windows): https://www.git-scm.com/download/win, use nano as default editor for git; 'use git and optional unix tools from command prompt' (enables unix from Rstudio, but may screw up windows command line)
+
+#confirm gitbash is default terminal in Rstudio
+
+
+
 use_git()
 
 #test
